@@ -12,14 +12,16 @@
 *{
     background: #F2FF49;
     color: #00272B;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     font-family: "Space Grotesk", sans-serif;
 }
 
-.nav-bar{
-    display: flex;
-    flex-direction: row;
-    
+.nav-bar ul{
+    list-style-type: none;
+    font-size: 1rem;
+    margin-left: 60%;
 }
